@@ -1,0 +1,233 @@
+:root {
+    --morning-sky: #0066ff;
+    --night-sky: #101010;
+    --transition: all 0.5s ease;
+}
+
+.toggle-container {
+    position: fixed;
+    top: 4vh;
+    right: 20vh;
+}
+
+.toggle {
+    font-size: 10px;
+    position: relative;
+    width: 25em;
+    /* width: 50em; */
+    height: 10em;
+    border-radius: 5em;
+    background-color: var(--morning-sky);
+    box-shadow: inset -.2em -.2em 1em #000000;
+    overflow: hidden;
+}
+
+.toggle input[type="checkbox"] {
+    display: none;
+}
+
+.toggle .cloud {
+    position: absolute;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 4em;
+    height: 3em;
+    transition: var(--transition);
+}
+
+/* 
+.toggle .cloud:nth-of-type(1) {
+    bottom: 1em;
+    left: 3em;
+} 
+
+.toggle .cloud:nth-of-type(2) {
+    left: 5em;
+    top: 5em;
+    box-shadow: 1em 1em 1em 2em rgba(0, 0, 0, .2);
+}
+
+.toggle .cloud:nth-of-type(3) {
+    left: 6em;
+    bottom: 1em;
+    box-shadow: 0em 0em 1em rgba(0, 0, 0, .2);
+} 
+*/
+
+.toggle .astro {
+    display: block;
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    top: 1em;
+    left: 1em;
+    background-color: rgb(255, 208, 0);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.toggle .light {
+    display: block;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.toggle .light:nth-of-type(1) {
+    width: 11em;
+    height: 11em;
+    top: -.5em;
+    left: -.5em;
+}
+
+.toggle .light:nth-of-type(2) {
+    width: 14em;
+    height: 14em;
+    top: -2em;
+    left: -2em;
+}
+
+.toggle .light:nth-of-type(3) {
+    width: 17em;
+    height: 17em;
+    top: -3.5em;
+    left: -3.5em;
+}
+
+.toggle .crater {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: inset -.2em -.2em 1em #000000a0;
+    background-color: rgb(94, 94, 94);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.toggle .crater:nth-child(1) {
+    width: 2.5em;
+    height: 2.5em;
+    top: 4em;
+    left: 1.5em;
+}
+
+.toggle .crater:nth-child(2) {
+    width: 1.5em;
+    height: 1.5em;
+    top: 2em;
+    left: 3.5em;
+}
+
+.toggle .crater:nth-child(3) {
+    width: 1.5em;
+    height: 1.5em;
+    top: 5em;
+    left: 4.5em;
+}
+
+.toggle .star {
+    display: block;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    transition: var(--transition);
+    opacity: 0;
+}
+
+.toggle .star:nth-of-type(1) {
+    left: 3em;
+    top: 6em;
+}
+
+.toggle .star:nth-of-type(2) {
+    left: 10em;
+    top: 8em;
+}
+
+.toggle .star:nth-of-type(3) {
+    left: 13em;
+    top: 2em;
+}
+
+.toggle .star:nth-of-type(4) {
+    left: 4em;
+    top: 1em;
+}
+
+.toggle .star:nth-of-type(5) {
+    left: 0em;
+    top: 2.3em;
+}
+.toggle .star:nth-of-type(6) {
+    right: 8em;
+    top: 4em;
+}
+.toggle .star:nth-of-type(7) {
+    right: 18em;
+    top: 9em;
+}
+.toggle .star:nth-of-type(8) {
+    left: 0em;
+    top: 8em;
+}
+
+.toggle:has(input:checked) .star {
+    opacity: 1;
+}
+
+.toggle:has(input:checked) {
+    background-color: var(--night-sky);
+}
+
+.toggle:has(input:checked) .astro {
+    background-color: darkgray;
+    top: -1em;
+    /* left: 65%; */
+    left: 3em;
+}
+
+.toggle:has(input:checked) .light {
+    background-color: rgba(255, 255, 255, .03);
+}
+
+.toggle:has(input:checked) .light:nth-of-type(1) {
+    opacity: 0;
+    left: 14.5em;
+}
+
+.toggle:has(input:checked) .light:nth-of-type(2) {
+    opacity: 0;
+    left: 13em;
+}
+
+.toggle:has(input:checked) .light:nth-of-type(3) {
+    opacity: 0;
+    left: 11.5em;
+}
+
+.toggle:has(input:checked) .astro .crater {
+    opacity: 1;
+}
+
+/* .toggle:has(input:checked) .cloud:nth-of-type(1) {
+    left: 0em
+}
+
+.toggle:has(input:checked) .cloud:nth-of-type(2) {
+    left: 0em
+} */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: sans-serif;
+}
