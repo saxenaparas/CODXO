@@ -1,0 +1,91 @@
+body {
+  background-color: var(--dark1);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --highlight-color: rgb(0, 230, 122);
+  --highlight-hover-color: rgb(4, 196, 106);
+  --sky-color:#353434;
+  --dark1: rgb(31, 30, 30);
+  --dark2: rgb(27, 27, 27);
+  --dark3: rgb(43, 42, 42);
+  --gray1: rgb(71, 71, 71);
+  --gray2: rgb(78, 78, 78);
+  --cream-white: rgb(161, 161, 161);
+  --tick: 100%;
+}
+
+[data-theme="light"] {
+  --dark1: #00d5ff;
+  --heading-color: rgb(43, 42, 42);
+  --highlight-color: #00d5ff;
+  --highlight-hover-color: #00d5ff;
+  --sky-color:rgb(228, 197, 18); 
+  --dark2: rgb(206, 206, 206);
+  --dark3: rgb(149, 149, 149);
+  --gray1: rgb(117, 115, 115);
+  --gray2: rgb(121, 116, 116);
+  --cream-white: rgb(255, 255, 255);
+  --tick: 100%;
+}
+
+.hero{
+  display: flex;
+  height: 100vh;
+  background-color: var(--dark1);
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-image: url('./logo/landing.png'); 
+}
+
+.App-Redirecting-btn{
+  background-color: var(--highlight-color);
+  color: var(--cream-white);
+  height: 55px;
+  width: 187px;
+  /* position: relative; */
+  position: absolute;
+  bottom: 24.6%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.button1 {
+  /* position: relative; */
+  font-size: 118%;
+	color: var(--cream-white);
+	background-color: var(--sky-color);
+	border: 5px solid transparent;
+	transition: .2s ease;
+	border-radius: 50px;
+  border: 4px solid white;
+  box-shadow: 0 0 0 4.5px var(--dark1);
+}
+
+.button1:hover {
+	color: var(--sky-color);
+	background-color: var(--cream-white);
+	transform: scale(1.2) translate(-50px, -20px) !important;
+	border: 5px solid var(--dark1);
+}
+
+.tick {
+  filter: grayscale(100%) brightness(15%);
+  position: absolute;
+  width: 100px;
+  height: 100px; 
+  left: 10.3%;
+  bottom: 25.8%;
+  /* transform: translateY(-50%); */
+}
