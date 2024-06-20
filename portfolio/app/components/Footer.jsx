@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./ui/Logo";
-import SocialMediaLinks from "./ui/socialMediaLinks";
+import SocialMediaLinks from "./ui/SocialMediaLinks";
 
 const Footer = () => {
   return (
