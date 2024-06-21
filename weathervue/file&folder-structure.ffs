@@ -1,0 +1,67 @@
+/weatherapp1.0
+├── .next/
+├── node_modules/
+├── public/
+│   ├── videos/
+│   │   ├── 1.mp4
+│   │   ├── 2.mp4
+│   │   └── 3.mp4
+│   ├── images/
+│   │   ├── 1.jpg
+│   │   ├── 2.jpg
+│   │   ├── 3.jpg
+│   │   ├── 4.jpg
+│   │   ├── 5.jpg
+│   │   ├── 6.jpg
+│   │   └── 7.jpg
+│   └── favicon.ico
+├── src/
+│   ├── api/
+│   │   └── apiKeys.js
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── forcast.js 
+│   │   │   ├── footer.js 
+│   │   │   ├── currentLocation.js 
+│   │   │   ├── weatherImageIcon.js
+│   │   │   ├── serviceWorker.js 
+│   │   │   ├── bgVideo.js
+│   │   │   └── detailer-components/
+│   │   │       ├── Forcast.jsx
+│   │   │       ├── TemperatureDetails.jsx
+│   │   │       ├── TimeAndLocation.jsx
+│   │   │       ├── TopButtons.jsx
+│   │   │       └── Inputs.jsx
+│   │   ├── App.js 
+│   │   ├── App.css
+│   │   ├── DetailerApp.js
+│   │   ├── DetailerApp.css 
+│   │   ├── page.js 
+│   │   ├── layout.js 
+│   │   └── globals.css
+│   ├── services/
+│   │   └── weatherServices.jsx
+│   └── images/
+│       ├── background.jpg
+│       ├── background1.jpg
+│       ├── city.jpg
+│       ├── city1.jpg
+│       ├── forcast.png
+│       └── WeatherIcons.gif
+├── .gitignore
+├── package.json
+├── file&folder-structure.ffs
+├── package-lock.json
+├── jsconfig.json
+├── next.config.mjs
+├── tailwind.config.js
+├── postcss.config.mjs
+└── README.md
+
+
+ > Helpful-Used-Direction-Symbols-Listdown:
+    ( └ ) : [ single branching ]
+    ( ─ ) : [ directing ]
+    ( ├ ) : [ dual branching ]
+    ( / ) : [ further branching inside/ node having sub-branches inside ]
+    
