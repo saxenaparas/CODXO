@@ -22,7 +22,7 @@ const Navbar = () => {
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
                     <a href="https://parastodolist.vercel.app/" target="_blank" className="mr-5 hover:text-white">ToDo-App</a>
-                    <a href="https://parassaxena.vercel.app/" target="_blank" className="mr-5 hover:text-white">Portfolio</a>
+                    <a href="https://parasportfolio.vercel.app/" target="_blank" className="mr-5 hover:text-white">Portfolio</a>
                     <a href="https://skyweathervue.vercel.app/" target="_blank" className="mr-5 hover:text-white">WeatherVue</a>
                     <a href="https://github.com/saxenaparas/CODXO" target="_blank" className="mr-5 hover:text-white">GitHub/Repo</a>
                 </nav>
