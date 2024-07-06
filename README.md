@@ -2,6 +2,9 @@
 ### CODXO given tasks and internship projects.
 <hr/>
 
+## Task Completion Landing/Hub:
+### -> [Landing/Hub](https://paras-internship-projects-codxo.vercel.app/)
+
 ## Task 1.1 :
 ### -> [ToDo-App](https://parastodolist.vercel.app)
 
