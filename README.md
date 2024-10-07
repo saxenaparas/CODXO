@@ -1,4 +1,4 @@
-# CODXO
+# ```CODXO```
 <!-- <hr/><hr/> -->
 
 ## ```📝``` CODXO Given Tasks & Internship Projects:
