@@ -1,7 +1,7 @@
 # CODXO
 <!-- <hr/><hr/> -->
 
-## 📝 CODXO Given Tasks & Internship Projects:
+## ```📝``` CODXO Given Tasks & Internship Projects:
 
 This repository showcases the projects developed during my Web Development Internship at Codxo in June 2024. Throughout the internship, I focused on enhancing my skills in NextJS, ReactJS, and TailwindCSS by building the following key projects:
 
@@ -13,14 +13,14 @@ This repository showcases the projects developed during my Web Development Inter
 
 These projects demonstrate my ability to create responsive, user-friendly web applications with a strong focus on UI/UX design and functionality. Additionally, I created a landing hub for showcasing these projects and the certificates earned during the internship.
 
-## 🔍 Short Overview:
+## ```🔍``` Short Overview:
 
 - **Built three web development projects:** WeatherVue, Portfolio Website, and ToDo-List, showcasing proficiency in NextJS, ReactJS, and TailwindCSS.
 - **Enhanced UI/UX:** Through responsive designing, API integrations, and CRUD operations.
 - **Demonstrated Dedication & Efficiency:** By completing intermediate-level tasks, contributing effectively to the team.
 - **Created a Landing/Hub:** Additionally for showcasing projects which are developed and certificates earned during the internship.
 
-## 🛠️ Technologies Used:
+## ```🛠️``` Technologies Used:
 
 - **NextJS 14:** Framework for building fast and scalable React applications.
 - **ReactJS:** A JavaScript library for building user interfaces.
