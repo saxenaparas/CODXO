@@ -30,7 +30,7 @@ These projects demonstrate my ability to create responsive, user-friendly web ap
 - **OpenWeatherMap API:** Provides real-time weather data and forecasts.
 - **Resend API:** Email API for developers that helps them build, test and send transactional emails at scale.
 
-## 🔗 Project Links:
+## ```🔗``` Project Links:
 - **Landing/Hub:** &nbsp; [```paras-internship-projects-codxo.vercel.app```](https://paras-internship-projects-codxo.vercel.app/)
 - **Portfolio Website:** &nbsp; [```parasportfolio.vercel.app```](https://parasportfolio.vercel.app/)
 - **ToDo-List:** &nbsp; [```parastodolist.vercel.app```](https://parastodolist.vercel.app)
