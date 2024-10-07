@@ -31,7 +31,7 @@ These projects demonstrate my ability to create responsive, user-friendly web ap
 - **Resend API:** Email API for developers that helps them build, test and send transactional emails at scale.
 
 ## 🔗 Project Links:
-- **Landing/Hub:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [```paras-internship-projects-codxo.vercel.app```](https://paras-internship-projects-codxo.vercel.app/)
-- **Portfolio Website:** [```parasportfolio.vercel.app```](https://parasportfolio.vercel.app/)
-- **ToDo-List:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [```parastodolist.vercel.app```](https://parastodolist.vercel.app)
-- **WeatherVue:** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [```skyweathervue.vercel.app```](https://skyweathervue.vercel.app/)
+- **Landing/Hub:** &nbsp; [```paras-internship-projects-codxo.vercel.app```](https://paras-internship-projects-codxo.vercel.app/)
+- **Portfolio Website:** &nbsp; [```parasportfolio.vercel.app```](https://parasportfolio.vercel.app/)
+- **ToDo-List:** &nbsp; [```parastodolist.vercel.app```](https://parastodolist.vercel.app)
+- **WeatherVue:** &nbsp; [```skyweathervue.vercel.app```](https://skyweathervue.vercel.app/)
